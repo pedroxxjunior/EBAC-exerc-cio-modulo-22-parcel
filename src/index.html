@@ -4,11 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniversario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <img src="./images/aniver_fundo.jpg" alt="Aniversario">
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/logo.png" alt="logo">
+            <p class="hero__text">
+                Não perca <span class="Aniver">Aniver Party</span> a maior festa que ira acontecer  em  <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        2° distrito - Ji-paraná - Rondônia
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        R$50,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        22/12/2025 ás 20hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Adquira ja o seu 
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--frontend" >
+        <div class="container" data-aos="flip-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Musica Eletronica</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, delectus reiciendis. Id vero quia alias exercitationem ipsam dolor culpa quisquam eligendi, ad maxime fugiat in a cumque soluta. Nulla, molestias.
+                </p>
+            </div>
+            <img class="event__image" src="./images/dj.jpg" alt="DJ">
+        </div>
+    </section>
+    <section class="event event--ux-ui event--image-left" >
+        <div class="container" data-aos="flip-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Buffet</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, delectus reiciendis. Id vero quia alias exercitationem ipsam dolor culpa quisquam eligendi, ad maxime fugiat in a cumque soluta. Nulla, molestias.
+                </p>
+            </div>
+            <img class="event__image" src="./images/buffet.jpg" alt="buffet">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container" data-aos="flip-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Estrutura</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, delectus reiciendis. Id vero quia alias exercitationem ipsam dolor culpa quisquam eligendi, ad maxime fugiat in a cumque soluta. Nulla, molestias.
+                </p>
+            </div>
+            <img class="event__image" src="./images/casa de show.jpg" alt="casa de show">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="flip-left">
+            <div class="event__details">
+                <h2 class="event__details__title">OpenBar</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, delectus reiciendis. Id vero quia alias exercitationem ipsam dolor culpa quisquam eligendi, ad maxime fugiat in a cumque soluta. Nulla, molestias.
+                </p>
+            </div>
+            <img class="event__image" src="./images/openbar.jpg" alt="openbar">
+        </div>
+    </section>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
